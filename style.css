@@ -1,0 +1,396 @@
+@import url("./reset.css");
+
+#wrapper{
+	width: 1280px;
+	height: 1892px;
+	/*margin-left: 15%;*/
+	margin-left: calc((100% - 1280px) / 2);
+	/*border: 1px solid black;*/
+}
+.top-search{
+	height: 82px;
+	/*border:1px solid black;*/
+}
+.logo{
+	position: absolute;
+	margin-left: 150px;
+	margin-top: 20px;
+}
+.top-form{
+	margin-left: 432px;
+	position: absolute;
+	margin-top: 25px;
+
+}
+.searchf{
+	width: 435px;
+	height: 30px;
+	border: 1px solid #E3E3E3;
+}
+.search{
+	width: 400px;
+	height: 30px;
+	border-right: none;
+	border-style: none;
+	padding-left: 10px;
+}
+.but{
+	background-image: url(./img/search.png);
+	background-repeat: no-repeat;
+	width: 35px;
+	height:30px;
+	position: absolute;
+	background-color: white;
+	border-style: none;
+}
+.cart{
+	width: 45px;
+	height: 40px;
+	float: right;
+	margin-top: 20px;
+	margin-right: 216px;
+}
+.price{
+	float: right;
+	margin-top: 28px;
+	margin-right:-72px;
+	width: 13px;
+	height: 30px;
+	/*position: absolute; */
+}
+.cash{
+	width: 50px;
+	height: 25px;
+	margin-top: 26px;
+	margin-right: -123px; 
+	font-size: 25pt;
+	color: #a1a1a1;
+	/*border: 1px solid black;*/
+	font-weight: bold;
+	float: right;
+}
+.top-menu{
+	height: 36px;
+	background-color: #4ccfc1;
+
+}
+.top-menu li{
+	display: inline-block;
+	float: left;
+	margin-top: 10px;
+	padding-right: 20px;
+	padding-left: 20px;
+	border-right: 2px solid white;
+}
+.top-menu ul{
+	margin-left: 50px;
+}
+.top-menu li:last-child{
+	border: none;
+}
+.top-menu a{
+	text-decoration: none;
+	color: white;
+	font-family: Tahoma, sans-serif;
+	
+}
+.banner{
+	height: 446px;
+	background-color: #41c2b2;
+}
+.banner-slider{
+	width: 900px;
+	height: 360px;
+	position: absolute;
+	/*border: 1px solid white;*/
+	margin: 40px 130px;
+	overflow-x: hidden; 
+}
+
+.banner-list{
+	height: 360px;
+
+}
+.banner-list ul{
+	overflow: hidden;
+	position: relative;
+	width: 5000px;
+}
+.banner-list li{
+	float: left;
+	width: 900px;
+}
+.tshirt{
+	width: 280px;
+	height: 325px;
+	background-image: url(./img/tshirt.png);
+	margin-left: 75px;
+	margin-top: 25px;
+	position: absolute;
+}
+.zag{
+	float:right; 
+	margin-right: 160px;
+	margin-top: 35px;
+	width: 305px;
+	height: 100px;
+	/*border: 1px solid white;*/
+}
+.zag p{
+	font-weight: bold;
+	font-size: 25pt;
+	color: white;
+	/*line-height: 1;*/
+}
+.text{
+	float: right;
+	margin-right: 60px;
+	width: 405px;
+	height:75px;
+	margin-top: 20px;
+	/*border: 1px solid white;*/
+	/*position: absolute;*/
+}
+.text p{
+	color: white; 
+}
+.shop-now{
+	width: 140px;
+	height: 46px;
+	float: right;
+	margin-right:-140px;
+	margin-top: 127px;
+	
+	/*border-radius: 10px;*/
+	/*border:3px solid white;*/
+}
+.shop-now a{
+	width: 110px;
+	height: 20px;
+	text-decoration: none;
+	color: white;
+	font-size: 15pt;
+	display: block;
+	border: 3px solid white;
+	border-radius: 10px;
+	padding: 10px 20px;
+}
+.category{
+	height: 190px;
+}
+.list{
+	padding-top: 420px;
+	/*margin-top: 420px;*/
+	/*position: absolute;*/
+	height: 15px;
+	width: 300px;
+	margin-left: 40%;
+}
+.list li{
+	float: left;
+	margin-left: 10px;
+	/*width: 9px;
+	height: 9px;
+	background-color: white;
+	border-radius: 5px;*/
+}
+.list li:first-child{
+	margin-left: 0px;
+} 
+.list li a{
+	/*position: absolute;*/
+	width: 9px;
+	height: 9px;
+	background-color: white;
+	border-radius: 5px;
+	float: left;
+	margin-left: 10px;
+}
+.list a.selected{
+	background-color: #C0C0C0;
+}
+.lbut a{
+	margin-left: 30px;
+	margin-top: 50px;
+	background-image: url(./img/shapel.png);
+	position: absolute;
+	width: 30px;
+	height: 85px;
+}
+.rbut a{
+	float: right;
+	margin-right: 30px;
+	margin-top: 50px;
+	background-image: url(./img/shaper.png);
+	/*position: absolute;*/
+	width: 30px;
+	height: 85px;
+}
+.window-cat{
+	/*position: relative;*/
+	width: 1110px;
+	height: 190px;
+	/*border: 1px solid black;*/
+	margin-left: 84px;
+	overflow-x:hidden;
+}
+.categories ul{
+	overflow: hidden;
+	height: 190px;
+	width: 2000px;
+	position: relative;
+}
+.categories li{
+	/*position: absolute;*/
+	width: 340px;
+	height: 190px;
+	margin-top: 15px;
+	float: left;
+	/*border-right: 1px solid black;*/
+}
+.categories p{
+	float:left;
+	/*position: absolute;*/
+	margin-left: 220px;
+	margin-top: -120px;
+}
+
+.shop {
+	position: absolute;
+	width: 49px;
+	height: 25px;
+	background-color: #3cc395;
+	border-radius: 5px;
+	text-decoration: none;
+	color: white;
+	margin-left: 220px;
+	margin-top: -50px;
+	padding-left: 10px;
+	padding-top: 7px;
+	/*text-align: center;*/
+	/*overflow: hidden;*/
+}
+.products{
+	height: 650px;
+	/*border: 1px solid black;*/
+	/*position: relative;*/
+	/*display: inline;*/
+}
+.f-products{
+	background-color: #41c2b2;
+	height: 67px;
+}
+.f-products p{
+	color: white;
+	margin-left: 185px;
+	padding-top: 24px;
+	font-size: 15pt;
+}
+.main-prod{
+	width: 861px;
+	overflow: hidden;
+	/*border: 1px solid black;*/
+	margin-left: 190px;
+	margin-top: 45px;
+	/*position: absolute;*/
+}
+.main-prod li{
+	float: left;
+	margin-right: 45px;
+	margin-bottom: 45px;
+}
+/*.main-prod li:first-child{
+	margin-left: 0px;
+}
+*/
+.main-prod li:nth-child(3), .main-prod li:last-child{
+	margin-right:0;
+}
+.in-product{
+	height: 260px;
+	width: 255px;
+	border: 1px solid #e4e4e4;
+	border-bottom: 5px solid #3cc395;
+}
+.in-product img{
+	margin-left: 40px;
+	margin-top: 20px;
+}
+.in-product p{
+	margin-left: 60px;
+}
+.price_bottom{
+	display: inline-block;
+	padding-left: 50px;
+	padding-top: 5px;
+	position: absolute;
+	width: 140px;
+	height: 40px;
+}
+.dollar{
+	position: absolute;
+	text-decoration: none;
+	color: #afafaf;
+	font-size: 20pt;
+	margin-top: 9px;
+}
+.price_bottom a{
+	margin-left: 5px;
+	/*margin-top: -10px;*/
+}
+.price_bottom p{
+	margin-left: 20px;
+	margin-top: 9px;
+	font-size: 20pt;
+	color: #afafaf;
+	font-weight: bold;
+}
+.buy_now {
+	display: inline-block;
+	width: 72px;
+	height: 24px;
+	background-color: #3cc395;
+	border-radius: 10px;
+	margin-top: -32px;
+	text-decoration: none;
+	color: white;
+	float: right;
+	font-size: 11pt;
+	padding-top: 10px;
+	padding-left: 2px;
+}
+.footer{
+	background-color: #3cc3b5;
+	height: 337px;
+}
+.license{
+	height: 45px;
+	background-color: #2da89b;
+}
+.names{
+	width: 150px;
+	height: 270px;
+	float: left;
+	margin-left: 80px;
+	margin-top: 40px;
+}
+.names:first-child{
+margin-left: 185px;
+}
+.names h3{
+	color: white;
+	font-size: 14pt;
+}
+.names a{
+	text-decoration: none;
+	color: white;
+	line-height: 1.7;
+}
+.names a:first-child{
+	padding-top: 25px;
+}
+.license h2{
+	text-align: center;
+	color:white;
+	padding-top: 10px;
+}
